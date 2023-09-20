@@ -1,0 +1,404 @@
+@font-face {
+    font-family: "Newyork";
+    src: url("../fonts/NewYork PERSONAL USE.otf");
+    font-weight: 100;
+}
+
+body {
+    font-family: Rubik;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+h1, h2, h3, h4 {
+    font-family: Newyork, sans-serif;
+    font-weight: 100;
+}
+
+header {
+    padding-block: 1.5em;
+    padding-inline: 5em;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: 600;
+    color: #e9f6d5;
+}
+
+nav {
+    width: 55%;
+    margin-left: auto;
+    margin-block: auto;
+    display: flex;
+    gap: 1em;
+}
+
+header nav li {
+    list-style: none;
+    font-size: 0.85em;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-link {
+    text-decoration: none;
+    background-color: #f7fadf;
+    color: #0e3a3f;
+    padding: 1em 2em;
+    border-radius: 3em;
+    font-size: 0.9em;
+}
+
+section {
+    padding: 2em 8em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hero-section-large {
+    margin-top: 0;
+    padding-top: 0;
+    padding-inline: 0;
+    background-image: url("../img/doreen-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 95vh;
+    color: white;
+}
+
+.hero-div > h1 {
+    color: #f7fadf;
+    text-align: center;
+    font-size: 7em;
+    margin-top: 0.7em;
+    line-height: 0.9em;
+    margin-bottom: 0.3em;
+    font-weight: 100;
+}
+
+.hero-intro p {
+    width: 40%;
+    margin-inline: auto;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.hero-intro p span {
+    font-weight: 600;
+    color: #f7fadf;
+}
+
+.call-to-action {
+    background-color: #f7fadf;
+    width: fit-content;
+    display: flex;
+    padding: 0.2em 0.3em;
+    padding-left: 2em;
+    gap: 1em;
+    border-radius: 3em;
+    margin-inline: auto;
+}
+
+.call-to-action p {
+    width: fit-content;
+    color: black;
+}
+
+.call-to-action svg {
+    background-color: black;
+    color: #f7fadf;
+    border-radius: 4em;
+    margin-block: auto;
+    padding: 1em;
+}
+
+.works-section {
+    background-color: #0e3a3f;
+    color: white;
+    padding-block: 7em;
+}
+
+.works-section-container {
+    display: flex;
+    gap: 5em;
+
+}
+
+.works-section-container h1 {
+    margin-block: 0;
+    font-size: 5em;
+    font-weight: 100;
+    line-height: 1em;
+    width: 50%;
+}
+
+.aside-content {
+    width: 50%;
+}
+
+.aside-content p {
+    line-height: 1.4em;
+    font-weight: 200;
+    text-align: justify;
+    margin-bottom: 3em;
+}
+
+.works-links {
+    background-color: #f7fadf;
+    color: #444910;
+    border-radius: 4em;
+    margin-block: auto;
+    padding: 1em 2em;
+}
+
+.projects-section {
+    padding-block: 7em;
+    background-color: #f7fadf;
+    color: #0e3a3f;
+}
+
+.projects-header-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-header-title h1 {
+    margin-block: 0;
+    font-size: 3em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    box-sizing: border-box;
+}
+
+.project {
+    width: 48.5%;
+    box-sizing: border-box;
+    padding: 4em;
+    background-color: #0e3a3f;
+    color: white;
+}
+
+.project h3 {
+    font-size: 2em;
+}
+
+.services-section {
+    padding-block: 8em;
+    background-color: #0e3a3f;
+    color: white;
+}
+
+.services-section-header {
+    border-bottom: 1px solid white;
+    padding-bottom: 1.5em;
+    display: flex;
+}
+
+.services-section-header > h2, .services-section-header > p {
+    width: 33%;
+    margin-block: auto;
+}
+
+.services-section-header > p:last-child {
+    text-align: right;
+}
+
+.services-section-header > h2 {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 1em;
+    color: #f7fadf;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.services-container-large {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.service {
+    display: flex;
+    flex-direction: row;
+    width: 49.3%;
+}
+
+.service-details-container {
+    background-color: #0a292c;
+    color: #fbfdf3;
+    width: 45%;
+    padding: 2em;
+}
+
+.service-details-container h3 {
+    font-size: 3em;
+    margin-block: 0;
+}
+
+.service img {
+    height: 12em;
+    width: 55%;
+    object-fit: cover;
+}
+
+.blogs-section {
+    background-color: #0e3a3f;
+    color: white;
+    padding-bottom: 7em;
+}
+
+.blogs-header-title {
+    padding-top: 7em;
+    border-top: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs-header-title h3 {
+    font-size: 5em;
+    margin-block: 0;
+}
+
+.blogs-header-title p {
+    line-height: 1.7em;
+    font-weight: 300;
+    width: 50%;
+}
+
+.blogs-container {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.blog {
+    width: 32%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.blog img {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+}
+
+.blog-detail p {
+    font-weight: 300;
+}
+
+.blog-detail h3 {
+    margin-block: 0.2em;
+    font-size: 2em;
+}
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 70vh; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video-text {
+    position: absolute;
+    background-color: rgba(10, 41, 44, 0.71);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 1em 3em;
+    max-width: 100%; /* Adjust the max-width as needed */
+}
+
+.video-text h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.video-text p {
+    font-size: 1.2em;
+    line-height: 1.7em;
+    font-weight: 300;
+}
+
+
+.awards-section {
+    padding-block: 7em;
+    background-color: #0e3a3f;
+    color: white;
+}
+
+.awards-container-large h1 {
+    font-size: 6em;
+    line-height: 1em;
+    text-align: center;
+    margin-block: 0;
+}
+
+.awards-container-large p {
+    text-align: center;
+    width: 60%;
+    margin-inline: auto;
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+.contact-section {
+    background-color: #0e3a3f;
+    color: white;
+}
+
+.contact-header-title p {
+    border-bottom: 1px solid white;
+    padding-bottom: 2em;
+}
+
+.contact-container-large {
+    padding-bottom: 8em;
+}
+
+.contact-container-large h1 {
+    font-size: 4em;
+    width: 60%;
+}
+
+.see-more-link {
+    background-color: #f7fadf;
+    color: #0a292c;
+    padding: 1em 2em;
+    border-radius: 2em;
+}
+
+
+
+
+
+
+

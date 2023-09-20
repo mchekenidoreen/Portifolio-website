@@ -1,0 +1,406 @@
+/* Breakpoint 1: Small devices (e.g., smartphones) */
+@media screen and (max-width: 767px) {
+
+    header {
+        padding-block: 1.5em;
+        padding-inline: 0em;
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 1em;
+        font-weight: 600;
+        color: #e9f6d5;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header nav li {
+        list-style: none;
+        font-size: 0.85em;
+    }
+
+    header nav li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .contact-link {
+        margin-block: auto;
+        text-decoration: none;
+        background-color: #f7fadf;
+        color: #0e3a3f;
+        padding: 1em;
+        border-radius: 3em;
+        font-size: 1em;
+        display: none;
+    }
+
+    section {
+        padding: 1em 2em;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .hero-section-large {
+        margin-top: 0;
+        padding-top: 0;
+        padding-inline: 2em;
+        box-sizing: border-box;
+        background-image: url("../img/doreen-hero.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 80vh;
+        color: white;
+    }
+
+    .hero-div > h1 {
+        color: #f7fadf;
+        text-align: center;
+        font-size: 3em;
+        margin-top: 0.7em;
+        line-height: 0.9em;
+        margin-bottom: 0.3em;
+        font-weight: 100;
+    }
+
+    .hero-intro p {
+        width: 100%;
+        margin-inline: auto;
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+    .hero-intro p span {
+        font-weight: 600;
+        color: #f7fadf;
+    }
+
+    .call-to-action {
+        background-color: #f7fadf;
+        width: fit-content;
+        display: flex;
+        padding: 0.2em 0.3em;
+        padding-left: 2em;
+        gap: 1em;
+        border-radius: 3em;
+        margin-right: auto;
+    }
+
+    .call-to-action p {
+        width: fit-content;
+        color: black;
+    }
+
+    .call-to-action svg {
+        background-color: black;
+        color: #f7fadf;
+        border-radius: 4em;
+        margin-block: auto;
+        padding: 1em;
+    }
+
+    .works-section {
+        padding-block: 4em;
+        background-color: #0e3a3f;
+        color: white;
+    }
+
+    .works-section-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+
+    }
+
+    .works-section-container h1 {
+        margin-block: 0;
+        font-size: 3em;
+        font-weight: 100;
+        line-height: 1em;
+        width: 100%;
+    }
+
+    .aside-content {
+        width: 100%;
+    }
+
+    .aside-content p {
+        line-height: 1.4em;
+        font-weight: 200;
+        text-align: justify;
+        margin-bottom: 3em;
+    }
+
+    .works-links {
+        text-decoration: none;
+        background-color: #f7fadf;
+        color: #444910;
+        border-radius: 4em;
+        margin-block: auto;
+        padding: 1em 2em;
+    }
+
+    .projects-section {
+        padding-inline: 2em;
+        padding-block: 4em;
+        background-color: #f7fadf;
+        color: #0e3a3f;
+    }
+
+    .projects-header-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-header-title h1 {
+        margin-block: 0;
+        font-size: 2em;
+        font-weight: 500;
+        margin-bottom: 1em;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+        box-sizing: border-box;
+    }
+
+    .project {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 2em;
+        background-color: #0e3a3f;
+        color: white;
+    }
+
+    .project h3 {
+        font-size: 2em;
+    }
+
+    .services-section {
+        padding-block: 4em;
+        background-color: #0e3a3f;
+        color: white;
+    }
+
+    .services-section-header {
+        border-bottom: 1px solid white;
+        padding-bottom: 1.5em;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+
+    .services-section-header > h2, .services-section-header > p {
+        width: 100%;
+        margin-block: auto;
+    }
+
+    .services-section-header > p:last-child {
+        text-align: left;
+    }
+
+    .services-section-header > h2 {
+        font-family: Rubik;
+        font-weight: 500;
+        font-size: 1em;
+        color: #f7fadf;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    .services-container-large {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+
+    .service {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .service-details-container {
+        background-color: #0a292c;
+        color: #fbfdf3;
+        width: 100%;
+        padding: 2em;
+        box-sizing: border-box;
+    }
+
+    .service-details-container h3 {
+        font-size: 2em;
+        margin-block: 0;
+    }
+
+    .service img {
+        height: 12em;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .blogs-section {
+        background-color: #0e3a3f;
+        color: white;
+        padding-bottom: 4em;
+    }
+
+    .blogs-header-title {
+        padding-top: 4em;
+        border-top: 1px solid white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blogs-header-title h3 {
+        font-size: 3em;
+        margin-block: 0;
+    }
+
+    .blogs-header-title p {
+        line-height: 1.7em;
+        font-weight: 300;
+        width: 100%;
+    }
+
+    .blogs-container {
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+    }
+
+    .blog {
+        width: 100%;
+        padding: 0em;
+        box-sizing: border-box;
+    }
+
+    .blog img {
+        width: 100%;
+        height: 20em;
+        object-fit: cover;
+    }
+
+    .blog-detail p {
+        font-weight: 300;
+    }
+
+    .blog-detail h3 {
+        margin-block: 0.2em;
+        font-size: 2em;
+    }
+
+    .video-background {
+        position: relative;
+        width: 100%;
+        height: 70vh; /* Adjust the height as needed */
+        overflow: hidden;
+    }
+
+    .video-background video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .video-text {
+        position: absolute;
+        background-color: rgba(10, 41, 44, 0.71);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        padding: 1em 3em;
+        width: 100%; /* Adjust the max-width as needed */
+    }
+
+    .video-text h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .video-text p {
+        font-size: 1.2em;
+        line-height: 1.7em;
+        font-weight: 300;
+    }
+
+
+    .awards-section {
+        padding-block: 4em;
+        background-color: #0e3a3f;
+        color: white;
+    }
+
+    .awards-container-large h1 {
+        font-size: 2em;
+        line-height: 1em;
+        text-align: left;
+        margin-block: 0;
+    }
+
+    .awards-container-large p {
+        text-align: left;
+        width: 100%;
+        margin-inline: auto;
+        font-weight: 300;
+        line-height: 1.7em;
+    }
+
+    .contact-section {
+        background-color: #0e3a3f;
+        color: white;
+    }
+
+    .contact-header-title p {
+        border-bottom: 1px solid white;
+        padding-bottom: 2em;
+    }
+
+    .contact-container-large {
+        padding-bottom: 4em;
+    }
+
+    .contact-container-large h1 {
+        font-size: 2em;
+        width: 100%;
+    }
+
+    .see-more-link {
+        background-color: #f7fadf;
+        color: #0a292c;
+        padding: 1em 2em;
+        border-radius: 2em;
+        text-decoration: none;
+    }
+}
+
+/* Breakpoint 2: Medium devices (e.g., tablets) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Adjust styles for medium devices */
+    .container {
+        padding: 15px;
+    }
+}
+
+/* Breakpoint 3: Large devices (e.g., desktops) */
+@media screen and (min-width: 1024px) {
+    /* Adjust styles for large devices */
+    .container {
+        padding: 20px;
+    }
+}
